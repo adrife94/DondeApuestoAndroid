@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    tools:context=".EleccionCasaSportiumActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Sportium"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/container"
+        android:layout_weight="8"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:layout_height="wrap_content">
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Liga"
+           android:layout_weight="1"
+           android:id="@+id/btnliga"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Premier"
+            android:layout_weight="1"
+            android:id="@+id/btnpremier"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcio"
+            android:layout_weight="1"
+            android:id="@+id/btncalcio"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bundesliga"
+            android:layout_weight="1"
+            android:id="@+id/btnbundesliga"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ligue1"
+            android:id="@+id/btnligueone"/>
+
+
+    </LinearLayout>
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="La Liga"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/lvsportiumliga">
+    </ListView>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark">
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Premier"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/lvsportiumpremier">
+    </ListView>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark">
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Calcio"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/lvsportiumcalcio">
+    </ListView>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark">
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Bundesliga"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/lvsportiumligue1">
+    </ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Ligue1"/>
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark">
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/lvsportiumbundesliga">
+    </ListView>
+-->
+
+
+</LinearLayout>

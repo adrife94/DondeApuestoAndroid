@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CalculadoraActivity">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:layout_marginLeft="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5px"
+            android:text="Cuotas"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="Importe a apostar"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="Resultado"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5px"
+            android:text="Probabilidad%"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="Beneficio%"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/SeparadorCabecera"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/LineaCabecera"
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:layout_span="6"
+            android:background="#FFFFFF" >
+        </FrameLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuota 1"/>
+
+        <EditText
+            android:layout_width="70dp"
+            android:id="@+id/cuota1surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Importe a apostarrrrrrrrrr"
+            android:id="@+id/importe1surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/resultado1surebets"
+            android:text="Resultadooooo"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="probabilidadesssss"
+            android:id="@+id/probabilidad1surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Beneficioooooooo"
+            android:id="@+id/beneficio1surebets"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuota 1"/>
+
+        <EditText
+            android:layout_width="70dp"
+            android:id="@+id/cuota2surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/importe2surebets"
+            android:text="Importe a apostarrrrrrrrrr"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Resultadooooo"
+            android:id="@+id/resultado2surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="probabilidadesssss"
+            android:id="@+id/probabilidad2surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Beneficioooooooo"
+            android:id="@+id/beneficio2surebets"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Fila3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuota 1"/>
+
+        <EditText
+            android:layout_width="70dp"
+            android:id="@+id/cuota3surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/importe3surebets"
+            android:text="Importe a apostarrrrrrrrrr"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Resultadooooo"
+            android:id="@+id/resultado3surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="probabilidadesssss"
+            android:id="@+id/probabilidad3surebets"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Beneficioooooooo"
+            android:id="@+id/beneficio3surebets"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Introduce importe a Apostar"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:id="@+id/cantidad"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalcular"
+        android:text="Calcular"/>
+
+</LinearLayout>

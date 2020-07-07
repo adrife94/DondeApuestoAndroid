@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tabla"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="Madrid - Barcelona"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:weightSum="13"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView android:text=""
+                    android:layout_weight="3"/>
+                <TextView android:text="Local"
+                    android:layout_weight="3"/>
+                <TextView android:text="Empate"
+                    android:layout_weight="3"/>
+                <TextView android:text="Visitante"
+                    android:layout_weight="3"/>
+                <TextView android:text="Pago"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow>
+                <TextView android:text="Betfair"
+                    android:layout_weight="3"
+                    />
+                <TextView android:text="  1.76"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota1betfair"/>
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXbetfair"
+                    />
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2betfair"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajebetfair"/>
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow
+                android:background="@color/colorfondo">
+                <TextView android:text="Mbet"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota1mbet"/>
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXmbet"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2mbet"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajembet"/>
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow>
+                <TextView android:text="Sportium"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:id="@+id/cuota1sportium"
+                    android:layout_weight="3"/>
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXsportium"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2sportium"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajesportium"/>
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow
+                android:background="@color/colorfondo">
+                <TextView android:text="Marca"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:id="@+id/cuota1marca"
+                    android:layout_weight="3"/>
+                <TextView android:text="  3.25"
+                    android:id="@+id/cuotaXmarca"
+                    android:layout_weight="3"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2marca"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajemarca"/>
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow>
+                <TextView android:text="Suertia"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota1suertia"/>
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXsuertia"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2suertia"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajesuertia"/>
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow
+                android:background="@color/colorfondo">
+                <TextView android:text="Interwetten"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota1inter"/>
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXinter"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2inter"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajeinter"/>
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow>
+                <TextView android:text="Barcelona"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota1barcelona"
+                    />
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXbarcelona"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2barcelona"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajebarcelona"/>
+            </TableRow>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow
+                android:background="@color/colorfondo">
+                <TextView android:text="GoldenPark"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota1golden"
+                    />
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXgolden"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2golden"/>
+                <TextView android:text="  4.8"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajegolden"/>
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow>
+                <TextView android:text=""
+                    />
+
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+
+
+            <TableRow
+                android:background="@color/colorfondo">
+                <TextView android:text="Media"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota1media"/>
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXmedia"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2media"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajemedia"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text=""
+                    />
+
+            </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark">
+            </LinearLayout>
+
+            <TableRow
+                android:background="@color/colorfondo">
+                <TextView android:text="Mejores"
+                    android:layout_weight="3"/>
+                <TextView android:text="  1.76"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota1mejor"/>
+                <TextView android:text="  3.25"
+                    android:layout_weight="3"
+                    android:id="@+id/cuotaXmejor"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="3"
+                    android:id="@+id/cuota2mejor"/>
+                <TextView android:text="  4.38"
+                    android:layout_weight="1"
+                    android:id="@+id/cuotaPorcentajemejor"/>
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/s"/>
+
+
+</LinearLayout>

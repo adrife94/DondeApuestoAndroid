@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CasaSelecionada2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccion casa 2"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/sportium"
+            android:layout_height="wrap_content"
+            android:text="Sportium"
+            android:onClick="checkbuton"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/Betfair"
+            android:layout_height="wrap_content"
+            android:text="Betfair"
+            android:onClick="checkbuton"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/Barcelona"
+            android:layout_height="wrap_content"
+            android:text="Barcelona"
+            android:onClick="checkbuton"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/golden"
+            android:layout_height="wrap_content"
+            android:text="Golden"
+            android:onClick="checkbuton"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/marca"
+            android:layout_height="wrap_content"
+            android:text="Marcaapuestas"
+            android:onClick="checkbuton"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/mbet"
+            android:layout_height="wrap_content"
+            android:text="Mbet"
+            android:onClick="checkbuton"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/suertia"
+            android:layout_height="wrap_content"
+            android:text="Suertia"
+            android:onClick="checkbuton"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/interwetten"
+            android:layout_height="wrap_content"
+            android:text="Interwetten"
+            android:onClick="checkbuton"/>
+    </RadioGroup>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="wrap_content">
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="wrap_content">
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="wrap_content">
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:gravity="center"
+         android:layout_height="wrap_content">
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+     </LinearLayout>-->
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:hint="Escribe la cuota"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsiguiente"
+        android:text="Siguiente"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnterminar"
+        android:layout_marginTop="20dp"
+        android:text="Terminar"
+        />
+
+</LinearLayout>
